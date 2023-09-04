@@ -32,7 +32,7 @@ jobs:
           output_location: 'out' # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
-          API_URL: https://black-pond-0927a7110.3.azurestaticapps.net/api
+          API_URL: https://deploy.d1usk24dsb2djk.amplifyapp.com/api
           SECRET_KEY: maT!trUWr4brOyURitrl
           MONGODB_URL: mongodb+srv://fmendez:xjXx7rHfQjO7iDat@cluster0.yqmeg8w.mongodb.net/?retryWrites=true&w=majority
 
