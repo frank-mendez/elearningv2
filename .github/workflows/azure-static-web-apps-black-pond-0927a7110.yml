@@ -31,6 +31,10 @@ jobs:
           api_location: '' # Api source code path - optional
           output_location: 'out' # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
+        env:
+          API_URL: ${{ env.API_URL }}
+          SECRET_KEY: ${{ env.SECRET_KEY }}
+          MONGODB_URL: ${{ env.MONGODB_URL }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
