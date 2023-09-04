@@ -31,10 +31,6 @@ jobs:
           api_location: '' # Api source code path - optional
           output_location: 'out' # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-        env:
-          API_URL: https://deploy.d1usk24dsb2djk.amplifyapp.com/api
-          SECRET_KEY: maT!trUWr4brOyURitrl
-          MONGODB_URL: mongodb+srv://fmendez:xjXx7rHfQjO7iDat@cluster0.yqmeg8w.mongodb.net/?retryWrites=true&w=majority
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
