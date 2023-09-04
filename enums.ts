@@ -1,0 +1,6 @@
+export enum DEFAULT_VALUES {
+	DRAWERWIDTH = 240,
+	PAGE_LIMIT = 25,
+	PAGE_SIZE = 25,
+	PAGE_NUMBER = 0,
+}
