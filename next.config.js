@@ -5,7 +5,7 @@ const nextConfig = {
 		mongoDbUrl: process.env.MONGODB_URL,
 		apiUrl: process.env.API_URL,
 		secretKey: process.env.SECRET_KEY,
-		baseUrl: 'http://localhost:3000/',
+		baseUrl: 'http://elearning.d8d2f2a5fxg7c3bc.southeastasia.azurecontainer.io/',
 	},
 	images: {
 		unoptimized: true,
